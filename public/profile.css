@@ -1,0 +1,21 @@
+.btn-primary{
+  background-color: transparent;
+  color: black;
+}
+
+
+
+
+@media (max-width:767px) {
+  .card-body{
+    order: 1;
+    position: relative;
+    height: auto;
+    display: flex;
+    flex-direction: inherit;
+    width: 100%;
+  
+  }
+  
+}
+
