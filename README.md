@@ -51,3 +51,6 @@ Questo progetto è un'applicazione di autenticazione realizzata con **Node.js**,
 ## Licenza
 
 Questo progetto è distribuito sotto licenza MIT.
+
+## Anteprima del progetto
+![Immagine 2024-10-29 120124](https://github.com/user-attachments/assets/98938119-ec40-4bc9-a375-e70b494bcb4c)
