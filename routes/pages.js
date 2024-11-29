@@ -28,9 +28,7 @@ router.post("/profile/:id", authController.isLoggedIn, async (req, res) => {
   const { name, email } = req.body;
 
   if (req.user.id !== parseInt(req.params.id)) {
-    return res
-      .status(403)
-      .send("Non sei autorizzato a modificare questo profilo.");
+    return res.status(403).send("You are not allowed to edit this profile.");
   }
 
   try {
